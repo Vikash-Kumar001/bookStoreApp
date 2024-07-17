@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "name": "J.K. Rowling",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "price": 20.99,
+        "category": "Fantasy",
+        "image": "hp1.jpg",
+        "genre": "Fantasy"
+    },
+    {
+        "id": 2,
+        "name": "George Orwell",
+        "title": "1984",
+        "price": 15.99,
+        "category": "Dystopian",
+        "image": "1984.jpg",
+        "genre": "Dystopian"
+    },
+    {
+        "id": 3,
+        "name": "J.R.R. Tolkien",
+        "title": "The Lord of the Rings",
+        "price": 25.99,
+        "category": "Fantasy",
+        "image": "lotr.jpg",
+        "genre": "Fantasy"
+    },
+    {
+        "id": 4,
+        "name": "Harper Lee",
+        "title": "To Kill a Mockingbird",
+        "price": 18.99,
+        "category": "Classic",
+        "image": "tkam.jpg",
+        "genre": "Classic"
+    },
+    {
+        "id": 5,
+        "name": "F. Scott Fitzgerald",
+        "title": "The Great Gatsby",
+        "price": 14.99,
+        "category": "Classic",
+        "image": "gatsby.jpg",
+        "genre": "Classic"
+    },
+    {
+        "id": 6,
+        "name": "Aldous Huxley",
+        "title": "Brave New World",
+        "price": 19.99,
+        "category": "Dystopian",
+        "image": "bnw.jpg",
+        "genre": "Dystopian"
+    },
+    {
+        "id": 7,
+        "name": "Mary Shelley",
+        "title": "Frankenstein",
+        "price": 16.99,
+        "category": "Horror",
+        "image": "frankenstein.jpg",
+        "genre": "Horror"
+    },
+    {
+        "id": 8,
+        "name": "Jane Austen",
+        "title": "Pride and Prejudice",
+        "price": 14.99,
+        "category": "Classic",
+        "image": "pride.jpg",
+        "genre": "Classic"
+    },
+    {
+        "id": 9,
+        "name": "Mark Twain",
+        "title": "Adventures of Huckleberry Finn",
+        "price": 13.99,
+        "category": "Classic",
+        "image": "huck.jpg",
+        "genre": "Classic"
+    },
+    {
+        "id": 10,
+        "name": "Herman Melville",
+        "title": "Moby Dick",
+        "price": 17.99,
+        "category": "Classic",
+        "image": "moby.jpg",
+        "genre": "Classic"
+    }
+]
+
+
