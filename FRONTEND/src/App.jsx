@@ -7,6 +7,7 @@ import Course from './courses/courses'
 import Signup from './components/signup'
 import Contact from './contact/contacts'
 import About from './about/abouts'
+import { Toaster } from 'react-hot-toast';
   function App() {
   return (
     <>
@@ -18,6 +19,7 @@ import About from './about/abouts'
         <Route path="/contact" element={ <Contact />} />
         <Route path="/about" element={ <About />} />
       </Routes>
+      <Toaster />
       </div>
     </>
   )

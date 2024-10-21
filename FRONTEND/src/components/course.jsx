@@ -1,11 +1,28 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Cards from './cards'
-import list from '../../public/list.json'
+import axios from 'axios'
+import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
 function course() {
+    const [book, setBook] = useState([])
+    if (!book) {
+        return null;
+    }
+    useEffect(() =>{
+        const getBook = async() =>{
+            try{
+                const res = await axios.get("http://localhost:4001/book");
+                setBook(res.data)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        getBook();
+    },[])
     return (
         <>
             <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 ">
@@ -18,7 +35,7 @@ function course() {
                 </div>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
                     {
-                        list.map((item) => (
+                        book.map((item) => (
                             <Cards key={item.i} item={item} />
                         ))
                     }
